@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: hsl(229, 57%, 11%);
+}
+
+.main--img{
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 300px;
+}
+
+.aside{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 100px;
+    z-index: 1;
+}
+
+.aside--div{
+    background-color: hsl(228, 56%, 26%);
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+    border-top-right-radius: 95px;
+}
+
+.aside--div1{
+    background-color: hsl(228, 56%, 26%);
+    width: 600px;
+    height: 200px;
+}
+
+.aside__div--logo{
+    width: 120px;
+    height: 40px;
+    padding: 30px 0px 0px 20px;
+}
+
+.figure{
+    display: flex;
+    margin-top: 15px;
+    padding: 0px 20px 20px;
+}
+
+.figure--icon{
+    width: 25px;
+    height: 20px;
+    margin-right: 10px;
+    position: relative;
+    top: 8px;
+    bottom: 4px;
+    right: 6px;
+    left: 6px;
+}
+
+.figure div{
+    display: flex;
+    width: 38px;
+    height: 38px;
+    background-color: hsl(229, 57%, 11%);
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+/* Segundo bloque*/
+
+.aside--div1{
+    margin-left: 15px;
+    border-radius: 8px;
+    height: 95px;
+    position: relative;
+    top: 70px;  
+    width: 40%;
+}
+
+.board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 350px;
+    bottom: 80px;
+    background-color: white;
+    width: 120px;
+    height: 70px;
+    border-radius: 10px;
+
+}
+
+.board--number{
+    font-family: 'Raleway', sans-serif;
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+}
+
+.aside--progress{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+.aside--title{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+.aside--bar{
+    margin-top: 5px;
+    width: 450px;
+}
+
+.aside--bar[value] {
+    background-color: "green";
+  }
+
+.div--percent{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    padding-left: 20px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
